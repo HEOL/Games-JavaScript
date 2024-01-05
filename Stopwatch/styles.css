@@ -6,8 +6,8 @@ main {
 
 .circle {
     border-radius: 50%;
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
     border: 1px solid #fff;
     color: #fff;
     margin: 50px auto;
@@ -22,10 +22,10 @@ main {
     border-radius: 50%;
     z-index: -1;
     position: absolute;
-    width: 160px;
-    height: 160px;
-    left: calc(50% - 80px);
-    top: calc(50% - 80px);
+    width: 200px;
+    height: 200px;
+    left: calc(50% - 100px);
+    top: calc(50% - 100px);
     background-color: #1d1d1d;
 }
 
@@ -36,7 +36,7 @@ main {
     background-color: #fff;
     position: absolute;
     left: calc(50% - 10px);
-    top: calc(50% - 10px);
+    top: calc(40% - 10px);
     animation: rotacion 60s linear infinite;
     animation-play-state: paused;
 }
