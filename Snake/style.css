@@ -52,3 +52,11 @@
 .foodSquare {
     background-color: brown;
 }
+
+/* Estilos para la cabeza de la serpiente */
+.snakeHead {
+    background-color: green;
+    /* Color de fondo para la cabeza */
+    border-radius: 50%;
+    /* Para hacer una forma circular */
+}
