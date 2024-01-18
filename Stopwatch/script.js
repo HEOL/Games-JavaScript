@@ -50,3 +50,5 @@ const calculateTime = runningTime => {
 
   return `${display_minutes}:${display_seconds}`
 }
+
+
