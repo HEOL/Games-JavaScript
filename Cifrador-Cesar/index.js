@@ -5,7 +5,7 @@ const cifrador = document.getElementById('cifrador');
 const resultado = document.getElementById('resultado');
 const rango = document.getElementById('rango');
 
-const shifMessage = () => {
+const shiftMessage = () => {
     const wordArray = [...inputOriginal.value.toUpperCase()];
     printChar(0, wordArray);
 }
@@ -42,7 +42,7 @@ const animateChar = spanChar => {
 const submit = e => {
     e.preventDefault();
     resultado.innerHTML = '';
-    shifMessage();
+    shiftMessage();
 }
 
 cifrador.onsubmit = submit;
